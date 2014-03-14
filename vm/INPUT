@@ -1,0 +1,9 @@
+load r0 # 155
+load r1 # 1
+load r2 # 23
+add r3 r0 r1
+mult r4 r3 r2
+cmp r5 r4 r1
+sub r6 r0 r1
+mult r8 r0 r1
+halt
